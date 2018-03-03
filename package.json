@@ -1,0 +1,26 @@
+{
+  "name": "ws-blaster",
+  "version": "1.0.0",
+  "description": "WebSocket Blaster",
+  "author": {
+    "name": "Carlos Justiniano",
+    "email": "carlos.justiniano@gmail.com"
+  },
+  "main": "wsblaster.js",
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node wsblaster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjus/ws-blaster.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjus/ws-blaster/issues"
+  },
+  "homepage": "https://github.com/cjus/ws-blaster#readme",
+  "dependencies": {
+    "ws": "3.3.3"
+  }
+}
