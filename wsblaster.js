@@ -9,7 +9,7 @@ process.on('uncaughtException', (err) => {
   delete err.__cached_trace__;
   delete err.__previous__;
   delete err.domain;
-  cnsole.log(JSON.stringify({
+  console.log(JSON.stringify({
     event: 'error',
     error: err.name,
     stack: stack
